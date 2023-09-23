@@ -49,9 +49,9 @@ export default function FAQ() {
     return (
         <div className="flex flex-col items-center md:flex-row pl-[2em] md:pl-[3em] lg:pl-[7em] pr-[1em] pt-[4em] md:pt-[10em] pb-[5em] gap-[2em]">
             <div className="flex-1 mr-5 md:mr-10 relative">
-                <img src={purpleStar} className="absolute scale-[0.7] md:scale-[1] -top-8 md:-top-14 left-1 md:-left-5" />
+                <img src={purpleStar} className="absolute scale-[0.5] md:scale-[1] -top-8 md:-top-14 left-1 md:-left-5" />
                 <div className="text-center md:text-left">
-                    <h2 className="text-[1.7em] font-black">Frequently Ask <br /><span className="text-[#D434FE]">Question</span></h2>
+                    <h2 className="text-[1.7em] font-black font-[clash] tracking-wide">Frequently Ask <br /><span className="text-[#D434FE] font-[clash] tracking-wide">Question</span></h2>
 
                     <p className="text-[0.8em] pt-4 pb-8 leading-6 w-[100%] md:w-[70%]">We got answers to the questions that you might want to ask about <span>getlinked Hackathon 1.0</span></p>
                 </div>

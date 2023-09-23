@@ -1,10 +1,19 @@
 import line from '../../assets/Line 3.png'
+import whiteStar from '../../assets/star_icons/white_star.svg'
+import greyStar from '../../assets/star_icons/grey_star.svg'
+import purpleStar from '../../assets/star_icons/purple_star.svg'
 
 export default function Timeline() {
 
     return (
-        <div className='text-center pt-[3em] pb-[4em] '>
-            <h2 className='text-[1.6em] font-black pb-3'>Timeline</h2>
+        <div className='text-center pt-[3em] pb-[7em] relative'>
+
+            {/* Stars */}
+            <img src={purpleStar} className='absolute top-[9.5em] md:top-[13em] left-[4em] md:left-[15em] scale-[0.5] md:scale-[0.7]' />
+            <img src={greyStar} className='absolute scale-[0.5] md:scale-[0.7] bottom-10 md:bottom-24 left-5 md:left-[9em]' />
+            <img src={whiteStar} className='absolute right-[20%] scale-[0.5] md:scale-[0.7] top-[50%]' />
+
+            <h2 className='text-[1.6em] font-black pb-3 font-[clash] tracking-wide'>Timeline</h2>
             <p className='w-[25em] text-[0.8em] mx-auto'>
                 Here is the breakdown of the time we anticipate 
                 using for the upcoming event.

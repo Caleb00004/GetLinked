@@ -19,7 +19,7 @@ export default function Judging() {
                 <img src={image} className=' scale-[0.8] bg-transparent' />
             </div>
             <div className='flex-1 relative pr-7 pl-7 md:pl-auto md:pr-8 text-center md:text-left'>
-                <h2 className='text-[1.4em] md:text-[1.7em] pb-4 md:pb-auto font-black'>Judging Criteria <br /> <span className='text-[#D434FE]'>Key attributes</span></h2>
+                <h2 className=' font-[clash] tracking-wide text-[1.4em] md:text-[1.7em] pb-4 md:pb-auto font-black'>Judging Criteria <br /> <span className='text-[#D434FE] font-[clash] tracking-wide'>Key attributes</span></h2>
 
                 <div>
                     <div className='py-1 md:py-2 lg:py-3 text-[0.85em] leading-6'>

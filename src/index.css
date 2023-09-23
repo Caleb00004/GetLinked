@@ -10,6 +10,28 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Style the horizontal scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  /* Width of the scrollbar track */
+}
+
+/* Style the horizontal scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #D434FE;
+  /* Color of the thumb */
+  border-radius: 6px;
+  /* Rounded corners of the thumb */
+}
+
+/* Style the horizontal scrollbar track when being hovered */
+::-webkit-scrollbar-track {
+  /* background: linear-gradient(152.28deg, #281D64 -11.68%, #D9D9D9 -11.68%, #281D64 -2.2%, #6D2FCC 26.47%, #B768EE 61.37%, #7AB7EE 101.11%, #D9D9D9 105.59%); */
+  background-color: #150E28;
+  /* Color when hovered */
+}
+
 html {
   background-color: #150E28;
 }

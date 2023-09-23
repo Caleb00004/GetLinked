@@ -13,12 +13,24 @@ import Partners from '../components/Home/Partners'
 import Privacy from '../components/Home/Privacy'
 import Footer from '../components/footer'
 import Internet from '../assets/internet.svg'
+import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
+import { useLayoutEffect } from 'react'
 
-export default function Home () {
+export default function Home ({showNav}) {
+
+    useLayoutEffect(() => {
+        showNav()
+    },[])
+    
     return (
-        <>
+         <motion.div
+            initial={false}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+        >   
             <hr className=' border-gray-300 border-opacity-10 h-[0.1px]' />
-            <div className='flex items-center flex-col md:flex-row pl-[1em] pr-[1em] md:pr-auto md:pl-[3em] lg:pl-[5em] pt-[2em] '>
+            <div className='flex items-center flex-col md:flex-row pl-[1em] pr-[1em] md:pr-auto md:pl-[3em] lg:pl-[5em] pt-[2em] overflow-x-clip '>
                 <div className='flex-[1.5] flex flex-col text-center md:text-left '>
 
                     <div className='mb-2 mx-auto items-end flex flex-col md:hidden'>
@@ -84,7 +96,6 @@ export default function Home () {
             {/* <hr className=' border-gray-300 border-opacity-10 h-[0.1px]' /> */}
 
             <Footer />
-
-        </>
+         </motion.div>
     )
 }

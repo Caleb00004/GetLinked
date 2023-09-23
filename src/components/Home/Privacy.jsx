@@ -4,6 +4,7 @@ import Flare1 from '../../assets/purple-flare.png'
 import whiteStar from '../../assets/star_icons/white_star.svg'
 import greyStar from '../../assets/star_icons/grey_star.svg'
 import purpleStar from '../../assets/star_icons/purple_star.svg'
+import check from '../../assets/list_item.svg'
 
 export default function Privacy() {
     return (
@@ -17,7 +18,7 @@ export default function Privacy() {
                     <img src={purpleStar} className='absolute top-[80%] -left-16 scale-[0.7] ' />
                     <img src={greyStar} className='absolute left-[16em] -top-3 scale-[0.7] ' />
 
-                    <h2 className='text-[1.4em] md:text-[1.6em] font-black text-center md:text-left'>Privacy Policy and <br /><span className='text-[#D434FE]'>Terms</span></h2>
+                    <h2 className='text-[1.4em] md:text-[1.6em] font-black text-center md:text-left font-[clash] tracking-wide'>Privacy Policy and <br /><span className='text-[#D434FE] font-[clash] tracking-wide'>Terms</span></h2>
                     <p className='text-[0.8em] py-5 text-center md:text-left'>Last updated on September 12, 2023</p>
 
                     <p className='text-[0.8em] w-[100%] lg:w-[70%] pb-7 text-center'>
@@ -38,12 +39,12 @@ export default function Privacy() {
 
                         <div className='flex flex-col items-center gap-3'>
                             <div className='flex gap-3 pt-4'>
-                                <p>ch</p>
+                                <p className='mt-2'><img src={check} /></p>
                                 <p className='leading-6'>The Standard License grants you a non-exclusive right to
                                 navigate and register for our event</p>
                             </div>
                             <div className='flex gap-3'>
-                                <p>ch</p>
+                                <p className='mt-2'><img src={check} /></p>
                                 <p className='leading-6'>You are licensed to use the item available at any free source
                                     sites, for your project developement</p>
                             </div>
