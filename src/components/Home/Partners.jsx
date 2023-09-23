@@ -1,4 +1,4 @@
-import image from '../../assets/partnerImg.png'
+import image from '../../assets/partner_img.png'
 import Flare1 from '../../assets/purple-flare.png'
 import purpleStar from '../../assets/star_icons/purple_star.svg'
 import whiteStar from '../../assets/star_icons/white_star.svg'
